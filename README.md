@@ -2,6 +2,10 @@
 
 # Showcase
 
+
+https://github.com/user-attachments/assets/0dd1647d-c700-4dca-94e7-312144ce7544
+
+
 You can find more video showcases at [hytale2mc.com](https://hytale2mc.com)
 
 # Core Concepts
@@ -61,6 +65,10 @@ Run the Minestom server:
 Run the Hytale server by placing the game's `-hytale-all` jar into your Hytale server's `mods` directory and start the Hytale server.
 
 Connect to the Minestom server from Minecraft and to the Hytale server from Hytale.
+
+
+https://github.com/user-attachments/assets/9af7f0f8-1ff3-4e25-8e9f-67eb48b2bde0
+
 
 # Adding Your Own Plugins and Games
 Look at the existing source code in `plugins/` and `games/` directories and based on that implement your own.
