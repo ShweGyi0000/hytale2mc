@@ -20,10 +20,10 @@ although there are a lot of features either missing or implemented poorly.
 A platform is the environment where the games can on. Currently, the only supported platforms are Minecraft (Java) and Hytale.
 
 ## Minestom
-Minestom is an open-source, lightweight Minecraft server implementation. It is used as the Minecraft server backend.
+[Minestom](https://minestom.net/) is an open-source, lightweight Minecraft server implementation. It is used as the Minecraft server backend.
 
 ## NATS
-NATS is a messaging system that is used to communicate and synchronize state across multiple platforms.
+[NATS](https://nats.io/) is a messaging system that is used to communicate and synchronize state across multiple platforms.
 
 ## ECSPlugin
 An `ECSPlugin` packages a plugin's data (components, events, entity types), systems, resources and the platform handlers that know how to spawn and render those types. Plugins are created with the `ecsPlugin(...)` function so the composer can discover and register serializers automatically.
