@@ -59,7 +59,7 @@ Build the project with the Gradle wrapper:
 Run the Minestom server:
 
 ```bash
-./gradlew :games:aim-tranier:aim-trainer-minestom:run
+./gradlew :games:aim-trainer:aim-trainer-minestom:run
 ```
 
 Run the Hytale server by placing the game's `-hytale-all` jar into your Hytale server's `mods` directory and start the Hytale server.
