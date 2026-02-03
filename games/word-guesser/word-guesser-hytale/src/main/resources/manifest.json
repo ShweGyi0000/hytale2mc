@@ -1,0 +1,14 @@
+{
+  "Group": "com.hytale2mc",
+  "Name": "hytale",
+  "Version": "1.0.0",
+  "Description": "Enables crossplay between hytale and minecraft",
+  "Authors": [
+    { "Name": "alskea" }
+  ],
+  "Website": "https://hytale2mc.com",
+  "Main": "com.hytale2mc.game.wordguesser.WordGuesserHytale",
+  "DisabledByDefault": false,
+  "IncludesAssetPack": true,
+  "SubPlugins": []
+}

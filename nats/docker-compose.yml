@@ -1,0 +1,6 @@
+services:
+  nats:
+    image: nats:alpine
+    ports:
+      - "4222:4222"
+    entrypoint: ["/bin/sh", "-c", "echo 'max_payload: 8MB' > /tmp/nats.conf && nats-server -c /tmp/nats.conf -js"]

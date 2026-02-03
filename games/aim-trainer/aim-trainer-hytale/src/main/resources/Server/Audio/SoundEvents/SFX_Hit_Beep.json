@@ -1,0 +1,17 @@
+{
+  "Layers": [
+    {
+      "Files": [
+        "Sounds/Hit_Beep.ogg"
+      ],
+      "RandomSettings": {
+        "MinVolume": 0,
+        "MinPitch": 0,
+        "MaxPitch": 0
+      }
+    }
+  ],
+  "PreventSoundInterruption": true,
+  "Volume": 1,
+  "Parent": "SFX_Attn_Moderate"
+}

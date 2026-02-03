@@ -1,0 +1,55 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Weapon_Gun_Blunderbuss.name"
+  },
+  "Categories": [
+    "Items.Weapons"
+  ],
+  "Icon": "Icons/ItemsGenerated/Weapon_Gun_Blunderbuss.png",
+  "Texture": "Items/Weapons/Gun/Blunderbuss_Texture.png",
+  "PlayerAnimationsId": "Rifle",
+  "Interactions": {
+    "Primary": {
+      "Cooldown": {
+        "Id": "ShootCooldown",
+        "Cooldown": 0.15
+      },
+      "Interactions": [
+        {
+          "Type": "Simple"
+        }
+      ]
+    }
+  },
+  "InteractionConfig": {
+    "DisplayOutlines": false,
+    "UseDistance": {
+      "Adventure": 128,
+      "Creative": 128
+    }
+  },
+  "IconProperties": {
+    "Scale": 0.38,
+    "Translation": [
+      -14,
+      -25
+    ],
+    "Rotation": [
+      320,
+      90,
+      0
+    ]
+  },
+  "Quality": "Technical",
+  "Model": "Items/Weapons/Gun/Blunderbuss.blockymodel",
+  "Scale": 1,
+  "Tags": {
+    "Type": [
+      "Weapon"
+    ],
+    "Family": [
+      "Gun"
+    ]
+  },
+  "Weapon": {}
+}
